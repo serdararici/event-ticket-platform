@@ -22,7 +22,7 @@
         <jjwt.version>0.12.6</jjwt.version>
         <zxing.version>3.5.3</zxing.version>
         <dotenv.version>3.0.0</dotenv.version>
-        <iyzipay.version>2.0.100</iyzipay.version>
+        <iyzipay.version>2.0.125</iyzipay.version>
     </properties>
 
     <dependencies>
