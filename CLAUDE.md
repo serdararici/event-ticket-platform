@@ -57,3 +57,10 @@ The `.env.example` file documents all required variables.
 ## Current Status
 Project is empty. Starting from scratch.
 No files have been created yet beyond this CLAUDE.md.
+-
+9. All DTO fields must be validated with jakarta.validation.constraints 
+   (@NotNull, @Email, @Size, @Min, etc.) — validate at the controller level with @Valid
+10. Use SLF4J logging in every service class — log at INFO for business events, 
+    ERROR for exceptions (never use System.out.println)
+11. List endpoints must support pagination via Pageable — never return raw List 
+    for collections that can grow (use Page<T> and Spring Data's findAll(Pageable))
