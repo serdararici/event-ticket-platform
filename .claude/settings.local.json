@@ -3,7 +3,9 @@
     "allow": [
       "Bash(mvn *)",
       "PowerShell(mvn *)",
-      "PowerShell(mvn test *)"
+      "PowerShell(mvn test *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(mvn flyway:migrate *)"
     ]
   }
 }

@@ -36,3 +36,6 @@ target/
 
 # QR code storage
 qr-codes/
+
+#Claude
+.claude/
